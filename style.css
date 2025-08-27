@@ -1,0 +1,144 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fef9f6;
+  color: #1b1a19;
+}
+
+.topbar {
+  background-color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 28px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.account {
+  font-size: 14px;
+  color: #0078d4;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background-color: #fff3ee;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.hero-img img {
+  width: 280px;
+}
+
+.button-primary {
+  background-color: #0078d4;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#fileInput {
+  display: none;
+}
+
+.content {
+  padding: 40px 80px;
+}
+
+/* 🔹 Nueva sección de descargas */
+.downloads {
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.downloads h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #0078d4;
+}
+
+.downloads ul {
+  list-style: none;
+  padding: 0;
+}
+
+.downloads li {
+  margin-bottom: 10px;
+}
+
+.downloads a {
+  text-decoration: none;
+  color: #0078d4;
+  font-weight: 500;
+}
+
+.downloads a:hover {
+  text-decoration: underline;
+}
+
+.table-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+.placeholder {
+  color: #888;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th, td {
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f3f2f1;
+  font-weight: 600;
+  color: #201f1e;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  color: #888;
+}
